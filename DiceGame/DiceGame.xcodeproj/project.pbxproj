@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1348DEA29D9A22800220A13 /* DiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1348DE929D9A22800220A13 /* DiceManager.swift */; };
 		F1BFF7A329C36E4A00242B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFF7A229C36E4A00242B48 /* AppDelegate.swift */; };
 		F1BFF7A529C36E4A00242B48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFF7A429C36E4A00242B48 /* SceneDelegate.swift */; };
 		F1BFF7A729C36E4A00242B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFF7A629C36E4A00242B48 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1348DE929D9A22800220A13 /* DiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceManager.swift; sourceTree = "<group>"; };
 		F1BFF79F29C36E4A00242B48 /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BFF7A229C36E4A00242B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BFF7A429C36E4A00242B48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1348DE329D9A18F00220A13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1348DE929D9A22800220A13 /* DiceManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1348DE529D9A1C300220A13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1BFF7A829C36E4A00242B48 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1348DE629D9A1D200220A13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1BFF7A629C36E4A00242B48 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F1BFF79629C36E4A00242B48 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +84,9 @@
 			children = (
 				F1BFF7A229C36E4A00242B48 /* AppDelegate.swift */,
 				F1BFF7A429C36E4A00242B48 /* SceneDelegate.swift */,
-				F1BFF7A629C36E4A00242B48 /* ViewController.swift */,
-				F1BFF7A829C36E4A00242B48 /* Main.storyboard */,
+				F1348DE329D9A18F00220A13 /* Models */,
+				F1348DE529D9A1C300220A13 /* Views */,
+				F1348DE629D9A1D200220A13 /* Controllers */,
 				F1BFF7AB29C36E4B00242B48 /* Assets.xcassets */,
 				F1BFF7AD29C36E4B00242B48 /* LaunchScreen.storyboard */,
 				F1BFF7B029C36E4B00242B48 /* Info.plist */,
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1348DEA29D9A22800220A13 /* DiceManager.swift in Sources */,
 				F1BFF7A729C36E4A00242B48 /* ViewController.swift in Sources */,
 				F1BFF7A329C36E4A00242B48 /* AppDelegate.swift in Sources */,
 				F1BFF7A529C36E4A00242B48 /* SceneDelegate.swift in Sources */,

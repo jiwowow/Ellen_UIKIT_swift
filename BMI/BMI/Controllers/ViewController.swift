@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         calculateButton.setTitle("BMI 계산하기", for: .normal)
         heightTextField.placeholder = "cm단위로 입력해주세요"
         weightTextField.placeholder = "kg단위로 입력해주세요"
-        weightTextField.returnKeyType = .done
     }
     
     

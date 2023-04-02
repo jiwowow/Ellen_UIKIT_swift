@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1348DF629D9B0ED00220A13 /* UpDownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1348DF529D9B0ED00220A13 /* UpDownManager.swift */; };
 		F196A72D29C9EDEC00348308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196A72C29C9EDEC00348308 /* AppDelegate.swift */; };
 		F196A72F29C9EDEC00348308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196A72E29C9EDEC00348308 /* SceneDelegate.swift */; };
 		F196A73129C9EDEC00348308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196A73029C9EDEC00348308 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1348DF529D9B0ED00220A13 /* UpDownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownManager.swift; sourceTree = "<group>"; };
 		F196A72929C9EDEC00348308 /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F196A72C29C9EDEC00348308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F196A72E29C9EDEC00348308 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1348DF229D9B0A500220A13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F196A73029C9EDEC00348308 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1348DF329D9B0B000220A13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F196A73229C9EDEC00348308 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1348DF429D9B0C100220A13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1348DF529D9B0ED00220A13 /* UpDownManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F196A72029C9EDEC00348308 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +84,9 @@
 			children = (
 				F196A72C29C9EDEC00348308 /* AppDelegate.swift */,
 				F196A72E29C9EDEC00348308 /* SceneDelegate.swift */,
-				F196A73029C9EDEC00348308 /* ViewController.swift */,
-				F196A73229C9EDEC00348308 /* Main.storyboard */,
+				F1348DF429D9B0C100220A13 /* Models */,
+				F1348DF329D9B0B000220A13 /* Views */,
+				F1348DF229D9B0A500220A13 /* Controllers */,
 				F196A73529C9EDEE00348308 /* Assets.xcassets */,
 				F196A73729C9EDEE00348308 /* LaunchScreen.storyboard */,
 				F196A73A29C9EDEE00348308 /* Info.plist */,
@@ -140,6 +167,7 @@
 			files = (
 				F196A73129C9EDEC00348308 /* ViewController.swift in Sources */,
 				F196A72D29C9EDEC00348308 /* AppDelegate.swift in Sources */,
+				F1348DF629D9B0ED00220A13 /* UpDownManager.swift in Sources */,
 				F196A72F29C9EDEC00348308 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
